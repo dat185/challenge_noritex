@@ -179,6 +179,10 @@ def evaluate(m):
         : ValueError: si hay una referencia circular
         : ZeroDivisionError: si hay una división entre cero
     """
+    
+    """
+        My solutions below until line 216:
+    """
     try:
         def get_math_operation(func):
             func = func.upper()
